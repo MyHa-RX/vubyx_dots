@@ -1,0 +1,54 @@
+@import "~/.config/rofi/colors.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font Propo 10";
+
+    background-color: @bg1;
+    text-color: @fg0;
+    border-color: @bg3;
+
+    spacing: 8px;
+    padding: 8px;
+}
+
+window {
+    location: center;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid @border-color;
+    background-color: @background-color;
+}
+
+inputbar {
+    background-color: @bg2;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+entry {
+    placeholder-color: @fg2;
+}
+
+listview {
+    lines: 8;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+element {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+element selected {
+    background-color: @blue;
+    text-color: @bg0;
+}
+
+element-icon {
+    size: 24px;
+}
+
+element-text {
+    font: "JetBrainsMono Nerd Font Propo 10";
+}
